@@ -1,0 +1,138 @@
+{
+  "vital": [
+    {
+      "id": 1,
+      "code": "3137-7",
+      "display": "Body height Measured",
+      "unit": {
+        "code": "cm",
+        "display": "cm"
+      },
+      "profile": "https://hapi.fhir.tw/fhir/StructureDefinition/Observation.SC1.BodyHeight"
+    },
+    {
+      "id": 2,
+      "code": "29463-7",
+      "display": "Body Weight",
+      "unit": {
+        "code": "kg",
+        "display": "kg"
+      },
+      "profile": "https://hapi.fhir.tw/fhir/StructureDefinition/Observation.SC1.BodyWeight"
+    },
+    {
+      "id": 3,
+      "code": "83174-3",
+      "display": "Grip Strength - Hand - right Dynamometer",
+      "unit": {
+        "code": "kg",
+        "display": "kg"
+      },
+      "profile": "https://hapi.fhir.tw/fhir/StructureDefinition/Observation.SC1.GripStrengthRight"
+    },
+    {
+      "id": 4,
+      "code": "8310-5",
+      "display": "Body Temperature",
+      "unit": {
+        "code": "°C",
+        "display": "Cel"
+      },
+      "profile": "https://hapi.fhir.tw/fhir/StructureDefinition/Observation.SC1.BodyTemperature"
+    },
+    {
+      "id": 5,
+      "code": "9279-1",
+      "display": "Respiratory Rate",
+      "unit": {
+        "code": "breaths/min",
+        "display": "{breaths}/min"
+      },
+      "profile": "https://hapi.fhir.tw/fhir/StructureDefinition/Observation.SC1.RespiratoryRate"
+    },
+    {
+      "id": 6,
+      "code": "8867-4",
+      "display": "Heart Rate",
+      "unit": {
+        "code": "beats/min",
+        "display": "{beats}/min"
+      },
+      "profile": "https://hapi.fhir.tw/fhir/StructureDefinition/Observation.SC1.HeartRate"
+    },
+    {
+      "id": 7,
+      "code": "8889-8",
+      "display": "Heart Rate by Pulse Oximeter",
+      "unit": {
+        "code": "beats/min",
+        "display": "{beats}/min"
+      },
+      "profile": "https://hapi.fhir.tw/fhir/StructureDefinition/Observation.SC1.PulseRate"
+    },
+    {
+      "id": 8,
+      "code": "41982-0",
+      "display": "Percentage of Body Fat Measured",
+      "unit": {
+        "code": "%",
+        "display": "%"
+      },
+      "profile": "https://hapi.fhir.tw/fhir/StructureDefinition/Observation.SC1.BodyFat"
+    },
+    {
+      "id": 9,
+      "code": "59408-5",
+      "display": "Oxygen Saturation in Arterial Blood by Pulse Oximetry",
+      "unit": {
+        "code": "%",
+        "display": "%"
+      },
+      "profile": "https://hapi.fhir.tw/fhir/StructureDefinition/Observation.SC1.SpO2"
+    }
+  ],
+  "exam": [
+    {
+      "id": 10,
+      "code": "44963-7",
+      "display": "Capillary Refill [Time] of Nail Bed",
+      "unit": {
+        "code": "s",
+        "display": "s"
+      },
+      "profile": "https://hapi.fhir.tw/fhir/StructureDefinition/Observation.SC1.CapillaryRefill"
+    }
+  ],
+  "lab": [
+    {
+      "id": 11,
+      "code": "2339-0",
+      "display": "Glucose [Mass/volume] in Blood",
+      "unit": {
+        "code": "mg/dL",
+        "display": "mg/dL"
+      },
+      "profile": "https://hapi.fhir.tw/fhir/StructureDefinition/Observation.SC1.BloodGlucose"
+    },
+    {
+      "id": 12,
+      "code": "87422-2",
+      "display": "Glucose [Mass/volume] in Blood - Post Meal",
+      "unit": {
+        "code": "mg/dL",
+        "display": "mg/dL"
+      },
+      "profile": "https://hapi.fhir.tw/fhir/StructureDefinition/Observation.SC1.BloodGlucosePC"
+    },
+    {
+      "id": 13,
+      "code": "88365-2",
+      "display": "Glucose [Mass/volume] in Blood - Pre-meal",
+      "unit": {
+        "code": "mg/dL",
+        "display": "mg/dL"
+      },
+      "profile": "https://hapi.fhir.tw/fhir/StructureDefinition/Observation.SC1.BloodGlucoseAC"
+    }
+  ]
+}
